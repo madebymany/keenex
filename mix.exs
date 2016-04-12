@@ -22,7 +22,7 @@ defmodule Keenex.Mixfile do
     [
       {:ibrowse, github: "cmullaparthi/ibrowse"},
       {:httpotion, "~> 2.1.0", override: true},
-      {:poison, "~> 1.3.1"},
+      {:poison, "~> 1.5"},
       {:exvcr, "~> 0.4.0", only: :test, github: "gullitmiranda/exvcr"},
       {:earmark, "~> 0.1", only: :dev},
       {:ex_doc, "~> 0.6", only: :dev},
