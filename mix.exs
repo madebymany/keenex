@@ -20,7 +20,7 @@ defmodule Keenex.Mixfile do
 
   defp deps do
     [
-      {:ibrowse, github: "cmullaparthi/ibrowse"},
+      {:ibrowse, github: "cmullaparthi/ibrowse", tag: "v4.1.2", override: true},
       {:httpotion, "~> 2.1.0", override: true},
       {:poison, "~> 1.5"},
       {:exvcr, "~> 0.4.0", only: :test, github: "gullitmiranda/exvcr"},
